@@ -6,8 +6,8 @@ Examples of mango web framework
 Usage:
 -----------------
 
-  export GOPATH=current directory
-  go get github.com/singpenguin/mango
+	export GOPATH=current directory
+	go get github.com/singpenguin/mango
 
-  cd src
-  go run code.go
+	cd src
+	go run code.go
