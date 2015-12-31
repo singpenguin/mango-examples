@@ -1,11 +1,10 @@
 package config
 
-
 import (
-    . "controllers"
+	. "controllers"
 )
 
-var Urls = map[string]interface{} {
-    "/": &Index{},
-    "/news/(\\d+)": &News{},
+var Urls = map[string]interface{}{
+	"/":            &Index{},
+	"/news/(\\d+)": &News{},
 }
